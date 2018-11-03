@@ -1,0 +1,46 @@
+{"cloud": true,
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/yumi/yumi",
+    "pages/yumi/yumii",
+    "pages/yumi/yummi",
+    "pages/games/game",
+    "pages/snake/snake"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "玉米",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "selectedColor": "#1296db",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "pages/images/index.png",
+        "selectedIconPath": "pages/images/index-d.png"
+      },
+      {
+        "pagePath": "pages/games/game",
+        "text": "游戏",
+        "iconPath": "pages/images/game.png",
+        "selectedIconPath": "pages/images/game-d.png"
+      },
+      {
+        "pagePath": "pages/snake/snake",
+        "text": "搜索",
+        "iconPath": "pages/images/log.png",
+        "selectedIconPath": "pages/images/log-d.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "玉米",
+        "iconPath": "pages/images/yumi.png",
+        "selectedIconPath": "pages/images/yumi-d.png"
+      }
+    ]
+  }
+}

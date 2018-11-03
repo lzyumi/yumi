@@ -1,0 +1,18 @@
+<!--pages/snake/snake.wxml-->
+<view class='main'>
+  <view class='top'>
+      <view style='height:20%;font-size:20px;color:red;text-align: center;'>
+        <text >熟食店开吃吧！！！少年</text>
+      </view>
+  </view>
+  <canvas canvas-id="snakCanvas" class="snakCanvas"  bindtouchstart="snakeStart" bindtouchmove="snakeMove" bindtouchend="snakeEnd"></canvas>
+</view>
+<view class="modal-box" hidden="{{flag}}" bindtap="hide">
+  <view class="modal-body">
+    <view class="modal-content" class="jieguo">
+      <image src="../images/jingcha.png"></image>
+      <button class="knowBtn" bindtap="hide">{{jieguo}}</button>
+    </view>
+    <image src="../images/jieguo.png" class='bgImg' hidden='{{bgImg}}'></image>
+  </view>
+</view>

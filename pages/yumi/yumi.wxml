@@ -1,0 +1,9 @@
+<!--pages/yumi/yumi.wxml-->
+<text>pages/yumi/yumi.wxml</text>
+<view>
+  <view>holle word{{yumi}}</view>
+  <view>
+    <text>计算器1\t</text>
+    <view id='cal'><text>{{cal}}</text></view>
+  </view>
+</view>

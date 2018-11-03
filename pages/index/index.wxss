@@ -1,0 +1,47 @@
+/**index.wxss**/
+page {
+    background-color: #27AE60;
+}
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #fff000;
+}
+
+.usermotto {
+  margin-top: 30%;
+  width: 100%;
+  float: right;
+}
+.widtsiz{
+  width: 50%;
+  text-align: center;
+  color:yellowgreen;
+  background: green;
+}
+.widtsize{
+  width: 50%;
+  text-align: center;
+  color:coral;
+  background: green;
+}
+
+.weather{
+    width: 100%;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    font-weight: 600;
+    height: 100%;
+}

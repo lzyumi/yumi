@@ -1,0 +1,95 @@
+/* pages/games/game.wxss */
+
+page {
+  height:100%;
+  background: gainsboro;
+}  
+.bg{
+  height:100%;
+}
+.top{
+  width: 100%;
+  height: 10%;
+  background:ghostwhite;
+  text-align: center;
+}
+.title{
+  position: absolute;
+  margin-top: 4%;
+  margin-left: -20%;
+}
+.center{
+  width: 100%;
+  height: 30%;
+  background:antiquewhite;
+  text-align: center;
+}
+.left{
+  float: left;
+  width: 50%;
+  background:lightcyan;
+  height:100%;
+}
+.right{
+  margin-left: 50%;
+  width: 50%;
+  background:yellow;
+  height:100%;
+}
+.bottom{
+  width: 100%;
+  height: 60%;
+  background:skyblue;
+  text-align: center;
+}
+.caiquan{
+  background: white;
+  width: 100%;
+  height: 60%;
+}
+.icon{
+  float: left;
+  width: 5rem;
+  height: 5rem;
+  margin-top: 12%;
+  padding-left: 2.5rem;
+}
+.icons{
+  float: left;
+  width: 5rem;
+  height: 5rem;
+  margin-top: 12%;
+  padding-left: 1.5rem;
+}
+.modal-box{
+  position:fixed;
+  width:100%;
+  height:100%;
+  top:0px;
+  background:rgba(0,0,0,0.4);
+  overflow: hidden;
+  background-image:"../images/jieguo.png";
+  }
+
+.modal-body{
+  position:relative;
+  }
+
+.modal-content{
+  /* width: 60%; */
+  margin:0 10% 0 30%;
+  overflow: hidden;
+  border-radius: 10rpx;}
+
+.modal-content{
+  width: 60%;
+  height:150px; 
+}
+.modal-content .jieguo{
+  width: 100%;
+  height: 40%;
+}
+.bgImg{
+  height:-1%;
+  width:100%;
+}

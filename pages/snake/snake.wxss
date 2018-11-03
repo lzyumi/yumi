@@ -1,0 +1,44 @@
+/* pages/snake/snake.wxss */
+    /* pages/tan/tan.wxss */
+Page{
+  height: 100%
+}
+.main{
+  
+  height: 100%;
+}
+.top{
+  
+  height: 10%;
+}
+.snakCanvas{
+  width:100%;height:90%;background-color:#ccc
+}
+.modal-box{
+  position:fixed;
+  width:100%;
+  height:100%;
+  top:0px;
+  background:rgba(0,0,0,0.4);
+  overflow: hidden;
+  background-image:"../images/jieguo.png";
+  }
+
+.modal-body{
+  position:relative;
+  }
+
+.modal-content{
+  /* width: 60%; */
+  margin:0 10% 0 30%;
+  overflow: hidden;
+  border-radius: 10rpx;}
+
+.modal-content{
+  width: 60%;
+  height:150px; 
+}
+.modal-content .jieguo{
+  width: 100%;
+  height: 40%;
+}

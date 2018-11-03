@@ -1,0 +1,35 @@
+<!--pages/games/game.wxml-->
+<views class="main">
+  <view class="top">
+    <text class="title">欢迎来到猜拳游戏</text>
+  </view>
+  <view class="center"> 
+    <view class='left'>
+      <text style="margin-right:{{heNum}}%;text-align: left; color:{{heColor}}">{{heScode}}</text>
+      <image bindtap='start' class='icon' src='{{biquan}}' mode="cover"></image>
+    </view>
+    <view class='right'>
+      <text style="margin-right:{{manNum}}%;color:{{manColor}}">{{manScode}}</text>
+      <image bindtap='start' class='icon' src='{{chuquan}}' mode="cover"></image>
+    </view>
+  </view>
+  <view class="bottom"> 
+      <view style='height:20%;font-size:30px;color:red;' hidden='{{cqa}}'>
+        <text >出拳吧！！！少年</text>
+      </view>
+    <view class="caiquan">
+      <block wx:for="{{caiquan}}" wx:for-item="cq">
+        <image bindtap='stop' data-man='{{index}}' data-chuquan='{{cq}}' class='icons' src='{{cq}}' mode="cover"></image>
+      </block>
+    </view>
+  </view>
+  <view class="modal-box" hidden="{{flag}}" bindtap="hide">
+    <view class="modal-body">
+      <view class="modal-content" class="jieguo">
+        <image src="{{jiegouPic}}"></image>
+        <button class="knowBtn" bindtap="hide">{{jieguo}}</button>
+     </view>
+     <image src="../images/jieguo.png" class='bgImg' hidden='{{bgImg}}'></image>
+    </view>
+  </view>
+</views>
